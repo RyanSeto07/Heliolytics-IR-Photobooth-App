@@ -156,6 +156,7 @@ def video():
 @app.route('/contacts')
 def contact_info():
     return render_template('Contact Info.html')
+    print('Yeah')
 
 
 @app.route('/print')
